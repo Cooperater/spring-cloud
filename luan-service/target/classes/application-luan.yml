@@ -1,0 +1,14 @@
+spring:
+   profiles: dev
+   
+server: 
+  port: 8081
+  
+eureka:
+  instance: 
+     hostname: luan
+  client:
+      registerWithEureka: false   
+      fetchRegistry: false
+      service-url:
+      defaultZone: http://yi:8082/eureka/

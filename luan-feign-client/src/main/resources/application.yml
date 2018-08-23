@@ -2,9 +2,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8080/eureka/
-    
+
 server:
-  port: 9003
+  port: 9004
+  
 spring:
   application:
-    name: eureka-robbin-client
+    name: eureka-feign-client

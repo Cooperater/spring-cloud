@@ -21,6 +21,7 @@ public class RibbonController {
 
 	@Autowired
 	RibbonService ribbonService;
+	
 	@GetMapping("/hello")
 	public String hello(@RequestParam(required = false , defaultValue = "luan") String name){
 		return ribbonService.hello(name);

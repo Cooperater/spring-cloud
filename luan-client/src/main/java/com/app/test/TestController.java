@@ -12,8 +12,9 @@ public class TestController {
 	String port;
 	@GetMapping("hello")
 	public String hello(@RequestParam String name){
-		System.out.println("现在是luan-celient为您服务：");
-		return "hi!  "+name+", I am form port:"+port;
+		System.out.println("现在是luan-celient,端口号"+port+"为您服务：");
+		String result = "hi !"+name+" 现在是luan-celient,端口号"+port+"为您服务";
+		return result;
 		
 	}
 }

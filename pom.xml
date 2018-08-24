@@ -20,6 +20,7 @@
   	<module>ribbon-client</module>
     <module>aaaa</module>
     <module>luan-feign-client</module>
+    <module>luan-zuul-client</module>
   </modules>
    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
